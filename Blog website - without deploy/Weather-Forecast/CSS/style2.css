@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
+  width: auto;
+  text-align: center;
+  background-image: url(../images/_berenice_.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-main {
+  padding-top: 2rem;
+  background-image: url(../images/_berenice_.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.header h4 {
+  color: rgb(13, 1, 24);
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 6px lavenderblush;
+}
+
+.input-box {
+  width: auto;
+  line-height: 2rem;
+  background: rgba(13, 1, 24, 0.107);
+  color: rgb(123, 94, 227);
+  font-weight: 500;
+  font-size: 3rem;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.input-box:hover {
+  background: aliceblue;
+}
+
+.btn {
+  width: 80px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border: 0;
+  background-color: rgba(233, 231, 229, 0.695);
+  border-radius: 40px;
+  box-shadow: 0 0 20px lavender;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+}
+
+.weather-body {
+  color: #fff;
+  padding: 20px;
+  line-height: 3rem;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px lavender;
+  width: 90%;
+  max-width: 500px;
+  font-size: 2rem;
+  margin: auto;
+  background: none;
+  margin-top: 30px;
+}
+
+.location-deatils {
+  font-weight: bold;
+}
+
+.weather-status {
+  padding: 30px;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  background: none;
+}
+
+.min-max {
+  background: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+
+#updated_on,
+#city,
+#date {
+  background: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header h4 {
+    font-size: 4rem;
+  }
+
+  .input-box {
+    font-size: 3rem;
+  }
+  .weather {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    min-height: 94vh;
+  }
+
+  .app-main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .input-box {
+    font-size: 1.3rem;
+    padding: 8px;
+  }
+
+  .btn {
+    width: 70px;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .temp {
+    font-size: 3rem;
+  }
+
+  .weather {
+    font-size: 1.5rem;
+  }
+
+  .weather-body {
+    padding: 15px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header h4 {
+    font-size: 1.8rem;
+  }
+
+  .input-box {
+    font-size: 1.2rem;
+    padding: 6px;
+  }
+
+  .btn {
+    width: 60px;
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  .temp {
+    font-size: 2.5rem;
+  }
+
+  .weather {
+    font-size: 1.3rem;
+  }
+
+  .weather-body {
+    padding: 10px;
+    width: 90%;
+  }
+}
