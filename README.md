@@ -2,15 +2,15 @@
 
 ## 🚀 Features  
 
--- **Dynamic Weather Finder** – Integrated live weather updates based on user location, providing real-time insights directly on the website.  
+✅ **Dynamic Weather Finder** – Integrated live weather updates based on user location, providing real-time insights directly on the website.  
 
--- **AI-Powered Voice Bot** – Enhanced user engagement with a voice-controlled bot for seamless navigation and personalized interactions.  
+✅ **AI-Powered Voice Bot** – Enhanced user engagement with a voice-controlled bot for seamless navigation and personalized interactions.  
 
--- **Real-Time News Highlights** – Eye-catching, real-time news highlights ensure users never miss trending updates.  
+✅ **Real-Time News Highlights** – Eye-catching, real-time news highlights ensure users never miss trending updates.  
 
--- **Smart Note-Taking** – Built-in feature for users to jot down and save notes while exploring articles, boosting productivity.  
+✅ **Smart Note-Taking** – Built-in feature for users to jot down and save notes while exploring articles, boosting productivity.  
 
--- **Responsive UI Features** – Includes a sleek toggle button for dark/light modes, a search bar, logout button, and a fully responsive design for any device.  
+✅ **Responsive UI Features** – Includes a sleek toggle button for dark/light modes, a search bar, logout button, and a fully responsive design for any device.  
 
 ## 🛠 Tech Stack  
 **HTML | CSS | Bootstrap | JavaScript | PHP (for user registration - MySQL database)**  
