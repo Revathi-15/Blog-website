@@ -15,4 +15,4 @@
 ## 🛠 Tech Stack  
 **HTML | CSS | Bootstrap | JavaScript | PHP (for user registration - MySQL database)**  
 
-🔗 **GitHub Repository:** [Click here](https://github.com/user-attachments/assets/2a27c37d-1d4e-4c74-9625-4c3ef71bb568)
+🔗 **Website:** [Click here](https://github.com/user-attachments/assets/2a27c37d-1d4e-4c74-9625-4c3ef71bb568)
